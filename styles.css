@@ -274,7 +274,7 @@ body {
 
 .user-name {
   font-family: var(--font-primary);
-  font-size: 16px;
+  font-size: 13.5px;
   font-weight: 700;
   color: #2c549d; /* Clean blue */
   letter-spacing: 0.5px;
@@ -282,7 +282,7 @@ body {
 }
 
 .user-id {
-  font-size: 13.5px;
+  font-size: 11px;
   color: #475569; /* Muted blue-grey */
   font-weight: 500;
   margin-top: 1px;
