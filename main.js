@@ -1,6 +1,24 @@
 // CUIMS Interactive Logic
 
 document.addEventListener('DOMContentLoaded', () => {
+  // Sidebar toggle behavior
+  const appContainer = document.querySelector('.app-container');
+  const sidebarCollapseBtn = document.getElementById('sidebar-collapse-btn');
+  const headerExpandBtn = document.getElementById('header-expand-btn');
+
+  if (appContainer) {
+    if (sidebarCollapseBtn) {
+      sidebarCollapseBtn.addEventListener('click', () => {
+        appContainer.classList.add('sidebar-collapsed');
+      });
+    }
+    if (headerExpandBtn) {
+      headerExpandBtn.addEventListener('click', () => {
+        appContainer.classList.remove('sidebar-collapsed');
+      });
+    }
+  }
+
   // Sidebar items interactive hover effects / click behavior
   const menuItems = document.querySelectorAll('.sidebar-menu li');
   menuItems.forEach(item => {
