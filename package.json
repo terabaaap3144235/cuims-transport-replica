@@ -1,0 +1,11 @@
+{
+  "name": "cuims-transport-replica",
+  "version": "1.0.0",
+  "description": "Replica of CUIMS Transport Details Page",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
