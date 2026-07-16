@@ -412,7 +412,7 @@ body {
 /* Active Status highlight */
 .val-active {
   color: #000000;
-  font-weight: 600;
+  font-weight: normal;
 }
 
 .font-numeric {
