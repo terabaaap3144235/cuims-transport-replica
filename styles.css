@@ -349,16 +349,22 @@ body {
 
 /* Left: Bus Image Card */
 .bus-image-card {
+  background-color: #ffffff;
   border-radius: 12px;
-  overflow: hidden;
-  display: flex;
+  padding: 10px;
+  border: 1px solid var(--border-color);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .bus-image {
   width: 100%;
   height: 100%;
+  max-height: 480px;
   object-fit: cover;
+  border-radius: 8px;
 }
 
 /* Right: Details Table Card */
