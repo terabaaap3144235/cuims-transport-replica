@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const appContainer = document.querySelector('.app-container');
   const sidebarCollapseBtn = document.getElementById('sidebar-collapse-btn');
   const headerExpandBtn = document.getElementById('header-expand-btn');
+  const sidebarBackdrop = document.getElementById('sidebar-backdrop');
 
   if (appContainer) {
     if (sidebarCollapseBtn) {
@@ -15,6 +16,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (headerExpandBtn) {
       headerExpandBtn.addEventListener('click', () => {
         appContainer.classList.remove('sidebar-collapsed');
+      });
+    }
+    if (sidebarBackdrop) {
+      sidebarBackdrop.addEventListener('click', () => {
+        appContainer.classList.add('sidebar-collapsed');
       });
     }
   }
