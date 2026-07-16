@@ -8,7 +8,7 @@
   --bg-sidebar: #ffffff;   /* Sidebar background */
   --bg-header: #ffffff;    /* Header background */
   --border-color: #e2e8f0; /* Subtle border grey */
-  --text-dark: #334155;    /* Standard dark text color */
+  --text-dark: #333333;    /* Standard dark text color matching DevTools #333 */
   --text-muted: #64748b;   /* Muted text color */
   --text-light: #ffffff;   /* White text */
   --table-lbl-bg: #f8fafc; /* Table label column background */
@@ -30,7 +30,8 @@ body {
   background-color: var(--bg-main);
   color: var(--text-dark);
   font-size: 14px;
-  line-height: 1.5;
+  font-weight: 400;
+  line-height: 1.42857143;
   height: 100vh;
   overflow: hidden;
 }
