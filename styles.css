@@ -420,6 +420,10 @@ body {
   font-weight: normal;
 }
 
+.text-black {
+  color: #000000;
+}
+
 .font-numeric {
   font-family: var(--font-primary);
   font-weight: 500;
