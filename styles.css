@@ -14,8 +14,8 @@
   --table-lbl-bg: #f8fafc; /* Table label column background */
   
   /* Fonts */
-  --font-primary: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-display: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-primary: 'Roboto', sans-serif;
+  --font-display: 'Roboto', sans-serif;
 }
 
 /* Reset & Base Styles */
